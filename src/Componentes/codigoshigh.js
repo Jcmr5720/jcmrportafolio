@@ -1,5 +1,5 @@
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { darcula } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { xonokai } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 function codigoshigh() {
 
@@ -17,7 +17,7 @@ function codigoshigh() {
     });`;
 
     return (
-        <SyntaxHighlighter language='javascript' style={darcula}>
+        <SyntaxHighlighter language='javascript' style={xonokai}>
         {codeSnippet}
       </SyntaxHighlighter>
     )

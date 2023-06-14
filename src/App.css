@@ -1,6 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap');
 
-.app1 {
+
+.header {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.header .span1Header {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.app1,
+.app2,
+.app3 {
   width: 100%;
   height: 500px;
   margin: 0;
@@ -17,7 +35,8 @@
 }
 
 .app1-1,
-.app2-2 {
+.app2-2,
+.app3-1 {
   width: 100%;
   border: 0px solid white;
   display: flex;
@@ -27,24 +46,30 @@
   gap: 5px;
 }
 
-.app1-1 .span1App1-1 {
+.span1App1-1,
+.span1App2-2,
+.span1App3-1 {
   font-size: 48px;
   font-weight: bold;
   color: rgb(252, 22, 233);
 }
 
-.app1-1 .span2App1-1 {
+.span2App1-1,
+.span2App2-2,
+.span2App3-1 {
   font-size: 32px;
   font-weight: bold;
   color: white;
 }
 
-.app1-1 .span3App1-1 {
+.span3App1-1,
+.span3App2-2,
+.span3App3-1 {
   font-size: 24px;
   color: white;
 }
 
-.app1-1 .buton1App1-1 {
+.buton1App1-1 {
   width: 120px;
   height: 40px;
   margin: 20px 0 0 0;
@@ -56,57 +81,42 @@
   font-weight: bold;
 }
 
-.app1-1 .buton1App1-1:hover {
+.buton1App1-1:hover {
   background-color: rgb(235, 235, 235);
-}
-
-.app1-2 {
-  width: 100%;
-  border: 0px solid white;
 }
 
 /* PARTE2 */
 
 .app2 {
-  width: 100%;
-  height: 500px;
-  margin: 0;
-  padding: 30px;
-  position: relative;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  height: 700px;
   background: linear-gradient(to bottom, #0f0f0f, #1e0153, #250129);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: 'Fira Sans', sans-serif;
+
 }
 
+.app1-1,
+.app1-2,
 .app2-1,
-.app2-2 {
+.app2-2,
+.app3-1,
+.app3-2 {
   width: 100%;
   padding: 10px;
 }
 
-.app2-1 img {
-  width: fit-content;
-  height: 350px;
+.app3 {
+  height: 700px;
+  background: linear-gradient(to bottom, #0f0f0f, #42003a, #250129);
 }
 
-.app2-2 .span1App2-2 {
-  font-size: 48px;
-  font-weight: bold;
-  color: rgb(252, 22, 233);
+.app2 img,
+.app3 img {
+  width: 250px;
+  height: 250px;
 }
 
-.app2-2 .span2App2-2 {
-  font-size: 32px;
-  font-weight: bold;
-  color: white;
-}
-
-.app2-2 .span3App2-2 {
-  font-size: 24px;
-  color: white;
+.span0App2-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

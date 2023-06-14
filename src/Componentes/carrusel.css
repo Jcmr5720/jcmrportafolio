@@ -10,12 +10,19 @@
 }
 
 .carousel-caption h3 {
-  background-color: black;
-  color: white;
+  background-color: rgb(3, 248, 236);
+  opacity: 0.75;
+  color: rgb(10, 10, 10);
+}
+
+.carousel-caption h3:hover {
+ transform: scale(1.1);
+ transition: transform 0.3s ease-in-out;
 }
 
 .carousel-caption p {
   background-color: rgb(153, 129, 129);
+  opacity: 0.75;
   color: white;
 }
 
