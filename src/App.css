@@ -120,3 +120,65 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 900px) {
+
+  .header .span1Header {
+    font-size: 18px;
+  }
+
+  .app1,
+  .app2,
+  .app3 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 30px;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .span1App1-1,
+  .span1App2-2,
+  .span1App3-1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(252, 22, 233);
+  }
+
+  .span2App1-1,
+  .span2App2-2,
+  .span2App3-1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .span3App1-1,
+  .span3App2-2,
+  .span3App3-1 {
+    font-size: 12px;
+    color: white;
+  }
+
+  .buton1App1-1 {
+    width: 50px;
+    height: 25px;
+    font-size: 10px;
+  }
+
+  .app2 img,
+  .app3 img {
+    display: none;
+  }
+
+  .span0App2-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
