@@ -2,19 +2,11 @@ import './App.css';
 import Carrusel from './Componentes/carrusel';
 import Codigo1 from './Componentes/codigoshigh';
 import Acordeon from './Componentes/acordeon';
+import Boton1 from './Componentes/boton';
 import img01 from './Imgs/imgcohete.png';
 import img02 from './Imgs/imgbase.png';
 
-import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Offcanvas from 'react-bootstrap/Offcanvas';
-
 function App() {
-
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
 
   const enviar1 = () => {
     window.location.href = "https://viteportafoliojcmr.netlify.app/";
@@ -28,27 +20,12 @@ function App() {
     window.location.href = "https://reactportafoliojcmr.netlify.app/";
   }
 
-
-
   return (
     <>
       <div className='header'>
         <span className='span1Header'>JUAN CAMILO MUÑOZ</span>
         <span></span>
-        <Button variant="primary" onClick={handleShow}>
-          ¿Quien soy?
-        </Button>
-        <Offcanvas show={show} onHide={handleClose}>
-          <Offcanvas.Header closeButton>
-            <Offcanvas.Title>Hola mundo 😃</Offcanvas.Title>
-          </Offcanvas.Header>
-          <Offcanvas.Body>
-            Soy Juan Camilo Muñoz Rodríguez 🤙 y soy ingeniero mecánico apasionado de tiempo completo por la programación.<br />
-            <br />
-            Sí quieres contactar mis servicios puedes escribirme al siguiente correo:<br /><br />
-            camilomr1414@hotmail.com
-          </Offcanvas.Body>
-        </Offcanvas>
+        <Boton1/>
       </div>
       <div className='app1'>
         <div className='app1-1'>
