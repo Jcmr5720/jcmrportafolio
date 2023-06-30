@@ -1,0 +1,16 @@
+.app1Certificados {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 40px;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(to bottom, #0f0f0f, #450054, #250129);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Fira Sans', sans-serif;
+}

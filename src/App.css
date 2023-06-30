@@ -121,6 +121,17 @@
   justify-content: center;
 }
 
+.headerSpan2 {
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.span1Header{
+  cursor: pointer;
+}
+
+
 @media (max-width: 900px) {
 
   .header .span1Header {

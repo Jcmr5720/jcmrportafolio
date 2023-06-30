@@ -2,11 +2,11 @@ import './App.css';
 import Carrusel from './Componentes/carrusel';
 import Codigo1 from './Componentes/codigoshigh';
 import Acordeon from './Componentes/acordeon';
-import Boton1 from './Componentes/boton';
+
 import img01 from './Imgs/imgcohete.png';
 import img02 from './Imgs/imgbase.png';
 
-function App() {
+function Home() {
 
   const enviar1 = () => {
     window.location.href = "https://viteportafoliojcmr.netlify.app/";
@@ -20,13 +20,10 @@ function App() {
     window.location.href = "https://reactportafoliojcmr.netlify.app/";
   }
 
+
+
   return (
     <>
-      <div className='header'>
-        <span className='span1Header'>JUAN CAMILO MUÑOZ</span>
-        <span></span>
-        <Boton1/>
-      </div>
       <div className='app1'>
         <div className='app1-1'>
           <span className='span1App1-1'>Manejo de Backend</span>
@@ -68,4 +65,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
