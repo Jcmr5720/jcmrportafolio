@@ -1,4 +1,5 @@
 import Formulario from './contactame';
+import "./boton.css";
 
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
@@ -12,10 +13,9 @@ function Example() {
 
     return (
         <>
-            <Button variant="primary" onClick={handleShow}>
+            <Button variant="primary" onClick={handleShow} className="custom-button">
                 Contactame
             </Button>
-
             <Offcanvas show={show} onHide={handleClose}>
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title>Hola mundo 😃</Offcanvas.Title>

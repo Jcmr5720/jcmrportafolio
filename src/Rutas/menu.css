@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.span1Header {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.headerSpan2 {
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.span1Header {
+    cursor: pointer;
+}
+
+
+@media (max-width: 900px) {
+
+    .header .span1Header,
+    .header .headerSpan2 {
+        font-size: 12px;
+    }
+
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import Boton1 from '../Componentes/boton';
+import "./menu.css";
 
 const certificados = () => {
     window.location.href = "/certificados";
