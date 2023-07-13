@@ -8,3 +8,10 @@
   width: 750px;
   height: 450px;
 }
+
+@media (max-width: 900px) {
+  .Carousel2 {
+    width: auto;
+    height: auto;
+  }
+}

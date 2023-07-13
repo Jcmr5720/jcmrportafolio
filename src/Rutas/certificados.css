@@ -14,3 +14,10 @@
   background-size: cover;
   font-family: 'Fira Sans', sans-serif;
 }
+
+@media (max-width: 900px) {
+  .app1Certificados img {
+    width: 300px;
+    height: 300px;
+  }
+}
