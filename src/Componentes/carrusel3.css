@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap');
+
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.Carousel2 {
+    width: auto;
+    height: auto;
+}
+
+.imgcar3{
+    width: 1200px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .Carousel2 {
+        width: auto;
+        height: auto;
+    }
+}
+
+
+/* NÚMEROS COMO INDICADORES */
+.carousel-indicators [data-bs-target] {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #444;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #ff9900 !important;
+    font-weight: bold;
+  }
+  
+  /* FLECHAS GRANDES Y PERSONALIZADAS */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-image: none !important;
+    width: auto;
+    height: auto;
+    font-size: 3rem;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+  }
+  
+  .carousel-control-prev::after,
+  .carousel-control-next::after {
+    display: none;
+  }
+  
+  .carousel-control-prev-icon::before {
+    content: '‹'; /* flecha izquierda */
+  }
+  
+  .carousel-control-next-icon::before {
+    content: '›'; /* flecha derecha */
+  }
+  

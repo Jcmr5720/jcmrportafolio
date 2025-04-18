@@ -4,6 +4,7 @@ import Layout from "./layout";
 import Error from "./Error";
 import Home from "../Home";
 import Certificados from "./certificados";
+import Proyectos from "./proyectos";
 
 const corazon = () => {
     return (
@@ -13,6 +14,7 @@ const corazon = () => {
                     <Route path="/" element={<Home />} />
                     <Route path="*" element={<Error />} />
                     <Route path="/certificados" element={<Certificados />} />
+                    <Route path="/proyectos" element={<Proyectos />} />
                 </Routes>
             </Layout>
         </BrowserRouter>
